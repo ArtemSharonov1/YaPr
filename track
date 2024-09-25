@@ -1,3 +1,4 @@
+```go
 package main
 
 // импортируйте нужные пакеты
@@ -12,6 +13,7 @@ const (
 	K1 = 0.035
 	K2 = 0.029
 )
+
 
 var (
 	Format     = "20060102 15:04:05" // формат даты и времени
@@ -191,3 +193,4 @@ func main() {
 		storage = AcceptPackage(today+" "+v, storage)
 	}
 }
+```
